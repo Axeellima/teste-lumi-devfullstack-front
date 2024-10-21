@@ -1,0 +1,62 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  background-color: var(--color-pink-light);
+	line-height: 1;
+	font-family: "Space Mono", monospace;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+  --color-primary: #109CF1;      /* Azul */
+  --color-secondary: #2ED47A;    /* Verde */
+  --color-tertiary: #F7685B;     /* Vermelho */
+  --color-dark: #192A3E;         /* Azul escuro */
+  --color-gray-dark: #323C47;    /* Cinza escuro */
+  --color-gray: #707683;          /* Cinza */
+  --color-light: #90A0B7;         /* Cinza claro */
+  --color-blue-dark: #334D6E;    /* Azul escuro 2 */
+  --color-white: #FFFFFF;         /* Branco */
+  --color-pink-light: #ececec;    /* Rosa claro */
+}
+button, input {
+	font-family: "Space Mono", monospace;
+}
