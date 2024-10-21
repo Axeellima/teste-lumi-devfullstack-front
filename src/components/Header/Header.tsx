@@ -15,7 +15,6 @@ const Header = () => {
           <h2>Desenvolvedor Full Stack</h2>
           <h3>Axel Lima</h3>
         </div>
-        <image />
       </Styled.HeaderDivContainer>
     </Styled.HeaderContainer>
   )

@@ -1,6 +1,6 @@
 "use server"
 
-import InvoicesPage from "@/pages/invoices/invoices"
+import InvoicesPage from "@/screens/invoices/invoices"
 import { getAllUnitConsumer } from "@/services/api/bills"
 import React, { useEffect, useState } from "react"
 

@@ -1,4 +1,4 @@
-import DashboardPage from "@/pages/dashboard/dashboard"
+import DashboardPage from "@/screens/dashboard/dashboard"
 import { getAllUnitConsumer, getFinancialResults } from "@/services/api/bills"
 import React from "react"
 
