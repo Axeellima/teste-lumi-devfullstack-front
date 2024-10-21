@@ -113,7 +113,8 @@ const InvoicesPage: React.FC<{ data: any }> = ({ data }) => {
               {Array.from({ length: 12 }, (_, index) => {
                 const monthIndex = index + 1
                 const billExists = unit.bills.find(
-                  (bill) => bill.referenceMonth + 1 === monthIndex
+                  (bill: { referenceMonth: number; id: string }) =>
+                    bill.referenceMonth + 1 === monthIndex
                 )
 
                 return (
